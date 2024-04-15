@@ -13,4 +13,4 @@ COPY ./out/artifacts/Cloud_Kolokvijum_jar/Cloud-Kolokvijum.jar /app
 EXPOSE 8080
 
 # Komanda za pokretanje Spring Boot aplikacije kada se kontejner pokrene
-CMD ["java", "-jar", "Cloud-Kolokvijum.jar"]
+ENTRYPOINT ["java", "-jar", "Cloud-Kolokvijum.jar"]

@@ -23,6 +23,6 @@ public class FilmService {
     }
 
     public Film createFilm(Film film) {
-        return null;
+        return filmRepository.save(film);
     }
 }
