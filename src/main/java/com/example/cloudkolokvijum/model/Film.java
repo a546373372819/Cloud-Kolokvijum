@@ -4,6 +4,7 @@ package com.example.cloudkolokvijum.model;
 import jakarta.persistence.*;
 
 @Entity
+@Table(name = "sv_60_2021")
 public class Film {
 
     @Id
